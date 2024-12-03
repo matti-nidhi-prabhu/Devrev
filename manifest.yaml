@@ -1,0 +1,14 @@
+name: devrev-sprint-summary
+version: 1.0.0
+description: Automates sprint summary generation and posts it to Slack.
+entry_point: dist/src/main.js
+inputs:
+  - name: SLACK_CHANNEL
+    description: Slack channel to post the sprint summary (e.g., #general).
+    type: string
+  - name: DEVREV_ORG_SLUG
+    description: DevRev organization slug.
+    type: string
+  - name: SLACK_API_TOKEN
+    description: Slack API token for posting messages.
+    type: string
