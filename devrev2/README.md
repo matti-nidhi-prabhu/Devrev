@@ -1,2 +1,0 @@
-# devrev2
- hackathon
